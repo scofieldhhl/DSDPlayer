@@ -11,7 +11,7 @@
   	android:id="@+id/title"
   	android:layout_width="90dip"
   	android:layout_height="wrap_content"
-  	android:text="无歌曲播放"
+  	android:text="@string/no_playing"
   	android:textColor="#ffffff"
   	android:textSize="15sp"
   	android:layout_marginLeft="30dip"

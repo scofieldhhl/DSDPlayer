@@ -822,10 +822,10 @@ public class PlayMusicActivity extends BaseActivity  implements OnClickListener,
 		if (fromUser) {
 			mPositionSeek = progress;
 //			seekbar_change(progress);
-		}else if (circularSeekBar.getId() == R.id.sb_player_voice) {
+		}/*else if (circularSeekBar.getId() == R.id.sb_player_voice) {
 			// 设置音量
 			audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, (int)progress, 0);
-		}
+		}*/
 	}
 
 	@Override

@@ -74,7 +74,7 @@ public class BaseAddressExpandableListAdapter extends BaseExpandableListAdapter 
             viewholder.times = (TextView) convertView.findViewById(R.id.time);
             viewholder.mIconRemove = (ImageView) convertView.findViewById(R.id.iv_remove);
             viewholder.mIconRemove.setVisibility(View.GONE);
-            viewholder.song_list_item_menu = (ImageButton) convertView.findViewById(R.id.ibtn_song_list_item_menu);
+//            viewholder.song_list_item_menu = (ImageButton) convertView.findViewById(R.id.ibtn_song_list_item_menu);
             convertView.setTag(viewholder);
         } else {
             viewholder = (ViewGroupHolder) convertView.getTag();

@@ -856,10 +856,10 @@ public class MusicPlayFragment extends Fragment implements View.OnClickListener,
 		if (fromUser) {
 			mPositionSeek = progress;
             isSeeking = true;
-		}else if (circularSeekBar.getId() == R.id.sb_player_voice) {
+		}/*else if (circularSeekBar.getId() == R.id.sb_player_voice) {
 			// 设置音量
 			audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, (int)progress, 0);
-		}
+		}*/
 	}
 
 	@Override

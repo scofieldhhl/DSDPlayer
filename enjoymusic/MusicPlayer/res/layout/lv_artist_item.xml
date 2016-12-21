@@ -20,8 +20,7 @@
 	android:singleLine="true"
 	android:gravity="center_vertical"
 	android:textSize="18sp"
-	android:textColor="@color/white"
-	android:text="TextView" />
+	android:textColor="@color/white" />
 <ImageView
 	android:id="@+id/widget34"
 	android:layout_width="30dp"

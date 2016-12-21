@@ -23,7 +23,6 @@
         android:gravity="center"
         android:textSize="22sp"
         android:visibility="gone"
-        android:text="lrc"
         android:marqueeRepeatLimit="marquee_forever"
         android:textColor="@android:color/black" >
     </TextView>
