@@ -23,7 +23,11 @@ dependencies {
 android {
     compileSdkVersion 23
     buildToolsVersion '23.0.1'
-
+    defaultConfig {
+        applicationId "wseemann.media"
+        versionCode 11127
+        versionName "1.6.11272230"
+    }
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
